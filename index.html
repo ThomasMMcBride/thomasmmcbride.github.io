@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thomas McBride's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/ThomasLogo.png" alt=""/>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#about-me" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#experience" class="nav__link">Experience/Work</a>
+          </li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact/Socials</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro" id="home">
+
+      <h1 class="section__title section__title--intro">
+        Hello! I am <strong>Thomas McBride</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Honors B.S. Computer Science Candidate
+      </p>
+      <img
+      src="images/profile picture Thomas McBride.jpg"
+      alt="A picture of Thomas McBride"
+      class="intro__img"
+    />
+    </section>
+
+    <section class="about-me" id="about-me">
+      <h2 class="section__title section__title--about-me"><center>About Me</center></h2>
+      <div class="about-me">
+        <div class="about-me"></div>
+        <p>
+          I'm an Honors Computer Science major
+          (concentrated in Artificial Intelligence) with a minor in Psychology
+          at Northeastern University. My personal hobbies include exercising, 
+          playing piano, and watching japanese cartoons. 
+          I'm currently a Teaching Assistant for the Khoury
+          College of Computer Sciences. Please reach out if you like what
+          you see!
+        </p>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="section__title section__title--experience">
+        Experience/Work
+      </h2>
+
+      <div class="experience-items">
+      <div class="experience-item">
+        <a
+          href="https://play.unity.com/mg/other/webgl-builds-231880"
+          class="nav__link"
+          target="_blank"
+          ><h3 class="btn">Space Blaster Game</h3></a
+        >
+        <p>
+          Space Blaster was written in Unity using C#. All art was done by me in Adobe Photoshop. 
+          Space Blaster is a 2D auto side-scrolling shooter in which the player
+          must dodge hazards and destroy enemies that are threatning life on
+          Earth. The game is playable through Unity Play via the button directly above. 
+        </p>
+      </div>
+
+
+      <div class="experience-item">
+        <h3>Teaching Assistant</h3>
+        <p>
+            <ul class="course__list">
+                <li class="ta__item">Course: Fundamentals of Computer Science 1 (introduces students to the principles of systematic problem solving through programming and basic rules of computation)
+                </li>
+                <li class="ta__item">Provide academic support and guidance for professors and students
+                </li>
+                <li class="ta__item">Assist with labs, hold office hours/tutoring sessions, grade homeworks and exams</li>
+            </ul>
+        </p>
+      </div>
+      
+        <div class="experience-item">
+        <h3>Courses Taken</h3>
+        <p>
+          <ul class="course__list">
+              <li class="course__item">Fundamentals of Computer Science 1 & 2</li>
+              <li class="course__item">Object Oriented Design</li>
+              <li class="course__item">Calculus 1 For Science and Engineering</li>
+              <li class="course__item">Mathematics of Data Models</li>
+              <li class="course__item">Discrete Structures</li>
+          </ul>
+        </p>
+      </div>
+
+
+    </div>
+    <div class="btn">
+        <a href="https://drive.google.com/file/d/1-sON9Yjqj6yyaklHvbwVrXbyIdFkdufv/view?usp=sharing" target="_blank"><center><p>Resume</p></center></a> 
+    </div>
+    </section>
+
+
+    <section class="contact__title" id="contact">
+        <h2><center>Contact/Socials</center></h2>
+        <div class="contacts">
+        <div class="contact">
+            <a href="https://www.instagram.com/thomasmondero/" class="contact__item">
+                <img src="images/Instagram Logo.png" alt="" class="contact__item" width="100" height="100">
+            </a>
+        </div>
+        <div class="contact">
+            <a href="https://twitter.com/thomasmondero" class="contact__item">
+                <img src="images/Twitter Logo.png" alt="" class="contact__item" width="100" height="100">
+            </a>
+        </div>
+        <div class="contact">
+            <a href="https://linkedin.com/in/thomas-mcbride-8862b2228" class="contact__item">
+                <img src="images/LinkedIn Logo.png" alt="" class="contact__item" width="100" height="100">
+            </a>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <a href="mailto:thomasmcbridebusiness@gmail.com" class="footer-link">thomasmcbridebusiness@gmail.com</a>
+    </footer>
+  </body>
+
+  <script src="js/index.js"></script>
+</html>
